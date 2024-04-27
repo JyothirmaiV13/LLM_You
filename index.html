@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Supplies</title>
+    <style>
+        /* CSS Styles */
+        body {
+            background-color: #f2eff5;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .header {
+            background-color: purple;
+            color: white;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .header a {
+            text-decoration: none;
+            color: white;
+            margin-left: 10px;
+        }
+        
+        .search-bar {
+            margin-left: 20px;
+            padding: 5px;
+            border: none;
+            border-radius: 5px;
+        }
+        
+        .content {
+            background-color: white;
+            padding: 20px;
+        }
+        
+        .product {
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .product .description {
+            flex: 1;
+        }
+        
+        .product .price {
+            font-weight: bold;
+        }
+        
+        .footer {
+            background-color: purple;
+            color: white;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .footer a {
+            text-decoration: none;
+            color: white;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div>
+            <h1>Art Supplies</h1>
+        </div>
+        <div>
+            <input type="text" class="search-bar" placeholder="Search...">
+            <a href="#">Home</a>
+            <a href="#">Supplies</a>
+            <a href="#">Sign In</a>
+            <button class="cart-button">Cart</button>
+            <button class="account-button">Account</button>
+        </div>
+    </div>
+    
+    <div class="content">
+        <h2>Welcome to our Art Supplies Store!</h2>
+        <p>Discover a wide range of high-quality art supplies for all your creative needs. Whether you're a professional artist or just starting out, we have everything you need to bring your artistic visions to life.</p>
+        
+        <div class="product">
+            <div class="description">
+                <h3>Acrylic Paint Set</h3>
+                <p>Includes 24 vibrant colors</p>
+            </div>
+            <div class="price">$29.99</div>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        
+        <div class="product">
+            <div class="description">
+                <h3>Watercolor Brush Set</h3>
+                <p>Includes 10 different brush sizes</p>
+            </div>
+            <div class="price">$19.99</div>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <div>
+            <p>&copy; 2024 Art Supplies. All rights reserved.</p>
+        </div>
+        <div>
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+        </div>
+    </div>
+    
+    <script>
+        // JavaScript code can be added here for additional functionality
+    </script>
+</body>
+</html>
